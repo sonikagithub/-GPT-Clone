@@ -1,6 +1,6 @@
-Chat-GPT Clone · Fenil-GPT
+Chat-GPT Clone 
 
-A full-stack Chat-GPT–style app built with React, Node.js, Express, Tailwind CSS, and the OpenAI API (server–client architecture).
+A full-stack Chat-GPT–style app built with React, Node.js, Express, Tailwind CSS, and the OpenAI API.
 
 Table of Contents
 
@@ -71,7 +71,7 @@ Getting Started
 
 Clone the repo
 
-git clone https://github.com/fenil210/Chat-GPT-Clone.git
+git clone https://github.com/sonikagithub/-GPT-clone.git
 cd Chat-GPT-Clone
 
 
@@ -149,17 +149,8 @@ Open the client URL in your browser.
 
 Enter a prompt and send—responses stream back in real time from the server via the OpenAI API.
 
-Troubleshooting
-
-Incorrect API key provided
-Ensure OPENAI_API_KEY is set in server/.env, there are no extra characters/spaces, and the server has been restarted after changes.
-
-CORS / Network errors
-Verify:
 
 Server is running on PORT you expect (5000 by default).
-
-VITE_API_BASE_URL (if used) matches your server URL.
 
 cors() middleware is enabled on the server.
 
